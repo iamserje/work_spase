@@ -1,0 +1,73 @@
+.vacancies__filter {
+   position: relative;
+}
+.filter__clear {
+   position: absolute;
+   top: 7px;
+   right: 0;
+   color: #ccc;
+}
+
+.filter__title {
+   margin-bottom: 32px;
+   font-size: 20px;
+}
+
+.filter_form {
+   display: flex;
+   flex-direction: column;
+   gap: 32px;
+}
+
+.filter__fieldset {
+   display: flex;
+   flex-direction: column;
+   align-items: start;
+}
+
+.filter__fieldset legend {
+   margin-bottom: 8px;
+}
+
+.filter__legend {
+   margin-bottom: 12px;
+}
+
+.filter__select {
+   width: 100%;
+}
+
+.filter__range {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   gap: 10px;
+}
+
+.filter__input {
+   flex: 1 1 50%;
+   width: 100%;
+   height: 32px;
+   padding: 0 16px;
+   border: 0;
+}
+.filter__input::placeholder {
+   color: #ccc;
+}
+
+.filter__checkboxes {
+   display: flex;
+   flex-direction: column;
+   gap: 32px;
+}
+
+.filter__label:not(:last-child) {
+   margin-bottom: 8px;
+}
+
+.filter__submit {
+   padding: 8px 24px;
+   border-radius: 4px;
+   background-color: #a6adff;
+}
+

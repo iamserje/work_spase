@@ -1,0 +1,16 @@
+.header {
+   padding: 40px 0;
+}
+
+.header__container {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.header__btn {
+   padding: 12px 32px;
+   border-radius: 8px;
+   font-size: 20px;
+   background-color: #A6ADFF;
+}

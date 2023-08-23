@@ -3,8 +3,9 @@
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="normalize.css">
-   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="index.css">
+   <script src="js/choices_mini.js" defer></script>
+   <script src="js/script.js" defer></script>
    <title>Workspce</title>
 </head>
 <body>
@@ -20,11 +21,12 @@
 
          <section class="hero">
             <div class="container hero__container">
-               <h1 class="hero__title">Найди работу <span class="color-blue">своей мечты</span></h1>
+               <h1 class="hero__title">Найди работу <span class="blue-text">своей мечты</span></h1>
             </div>
          </section>
          <div class="vacancies" id="vacancies">
             <div class="container vacancies__container">
+               <button class="vacancies__filter-btn">Фильтр</button>
                <section class="vacancies__filter">
                   <h2 class="filter__title">Фильтр</h2>
                   <form class="filter_form">
@@ -110,6 +112,45 @@
                            </ul>
                         </article>
                      </li>
+                     <li class="cards__item">
+                        <article class="vacancy" tabindex="0">
+                           <img class="vacancy__img" src="images/bb.svg" alt="yadro">
+                           <p class="vacancy__company">YADRO</p>
+                           <h3 class="vacancy__title">Инженер</h3>
+                           <ul class="vacancy__fields">
+                              <li class="vacancy__field">от 50 000₽</li>
+                              <li class="vacancy__field">частичная занятость</li>
+                              <li class="vacancy__field">офис</li>
+                              <li class="vacancy__field">опыт не важен</li>
+                           </ul>
+                        </article>
+                     </li>
+                     <li class="cards__item">
+                        <article class="vacancy" tabindex="0">
+                           <img class="vacancy__img" src="images/par.svg" alt="yadro">
+                           <p class="vacancy__company">YADRO</p>
+                           <h3 class="vacancy__title">Инженер</h3>
+                           <ul class="vacancy__fields">
+                              <li class="vacancy__field">от 50 000₽</li>
+                              <li class="vacancy__field">частичная занятость</li>
+                              <li class="vacancy__field">офис</li>
+                              <li class="vacancy__field">опыт не важен</li>
+                           </ul>
+                        </article>
+                     </li>
+                     <li class="cards__item">
+                        <article class="vacancy" tabindex="0">
+                           <img class="vacancy__img" src="images/yadro.svg" alt="yadro">
+                           <p class="vacancy__company">YADRO</p>
+                           <h3 class="vacancy__title">Инженер</h3>
+                           <ul class="vacancy__fields">
+                              <li class="vacancy__field">от 50 000₽</li>
+                              <li class="vacancy__field">частичная занятость</li>
+                              <li class="vacancy__field">офис</li>
+                              <li class="vacancy__field">опыт не важен</li>
+                           </ul>
+                        </article>
+                     </li>
                   </ul>
                </section>
             </div>
@@ -123,10 +164,10 @@
          <p class="copiright">© Work Space, 2023</p>
          <ul class="footer__contacts">
             <li class="footer__contact">Designer:
-               <a class="designer" href="">Anastasia Ilina</a>
+               <a class="footer__link designer" href="">Anastasia Ilina</a>
             </li>
             <li class="footer__contact">Developer:
-               <a class="developer" href="">Sierge Voronkov</a>
+               <a class="footer__link developer" href="">Sierge Voronkov</a>
             </li>
          </ul>
       </div>

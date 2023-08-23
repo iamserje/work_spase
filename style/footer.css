@@ -1,0 +1,36 @@
+.footer {
+   padding: 50px 0px 40px;
+}
+
+.footer__container {
+   display: grid;
+   gap: 27px;
+   grid-template-areas:
+   "logo ."
+   "copyr contacts";
+}
+
+.footer__img {
+   grid-area: logo;
+}
+
+.copiright {
+   grid-area: copyr;
+}
+
+.footer__contacts {
+   grid-area: contacts;
+   justify-self: end;
+   min-width: 180px;
+}
+
+.footer__contact {
+   margin-bottom: 8px;
+}
+.footer__contact:last-child {
+   margin-bottom: 0;
+}
+
+.footer__link:hover {
+   color:brown
+}
