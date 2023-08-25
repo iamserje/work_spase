@@ -9,9 +9,9 @@
    cursor: pointer;
 }
 
-/* .modal__open {
-   display: flex;
-} */
+.close {
+   display: none;
+}
 
 .modal_detail {}
 
