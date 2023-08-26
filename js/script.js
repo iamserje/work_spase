@@ -91,7 +91,7 @@ const createDetailVacancy = ({
 `
    <article class="detail">
       <div class="detail__header">
-         <img class="detail__logo" src="${API_URL}${logo}}" alt="${company}">
+         <img class="detail__logo" src="${API_URL}${logo}" alt="${company}">
          <p class="detail__company">${company}</p>
          <h2 class="detail__title">${title}</h2>
       </div>
